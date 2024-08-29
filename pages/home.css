@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: url(../assets/images/backgui.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 190, 22, 1);
+  height: 70px;
+}
+
+.container .nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 20px;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.container .logo img {
+  width: 173px;
+  height: 153px;
+  top: -40px;
+  left: 108px;
+  gap: 0px;
+  opacity: 0px;
+  align-items: center;
+  padding-left: 80px;
+  padding-top: 16px;
+}
+
+.tampilan {
+  display: flex;
+  flex-direction: column;
+}
+
+.tampilan .tmp1 {
+  position: absolute;
+  top: 20%;
+}
+
+.tampilan .tmp1 #cari {
+  position: absolute;
+  border-radius: 10px;
+  height: 25px;
+  border: none;
+}
+
+.monitor {
+  display: flex;
+}
+
+.monitor .plant{
+  position: relative;
+  left: 27%;
+}
+
+.monitor .moni {
+  position: absolute;
+  left: 31%;
+  margin-top: 43px;
+}
+
+.monitor #nama {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  width: 80px;
+  height: 17px;
+  border-radius: 10px;
+  border: none;
+  font-size: 7px;
+  align-items: center;
+}
+
+
+
+/*.iphone-13141 .langit-ui-1 {
+  background: url('../assets/images/langit_ui_1.png') 50% / cover no-repeat;
+  position: relative;
+  width: 404px;
+  height: 1025px;
+}
+.iphone-13141 .tak-berjudul-65202408212037411 {
+  background: url('../assets/images/tak_berjudul_65202408212037411.png') 50% / cover no-repeat;
+  position: relative;
+  width: 371px;
+  height: 607px;
+}
+.iphone-13141 .awan-1 {
+  background: url('../assets/images/awan_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 16px;
+  top: 302px;
+  width: 98px;
+  height: 93px;
+}
+.iphone-13141 .container-3 {
+  background: url('../assets/images/bukit_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: -230px;
+  bottom: -230px;
+  translate: -50% 0;
+  display: flex;
+  padding: 0 10px 0 9px;
+  width: 390px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.iphone-13141 .tanya-growbot-11 {
+  background: url('../assets/images/tanya_growbot_11.png') 50% / cover no-repeat;
+  position: absolute;
+  left: -11px;
+  top: 165px;
+  width: 151px;
+  height: 115px;
+}
+.iphone-13141 .vector-1 {
+  width: 8.3px;
+  height: 8.3px;
+}
+.iphone-13141 .icbaseline-create {
+  display: flex;
+  width: 11px;
+  height: 11px;
+  box-sizing: border-box;
+}
+.iphone-13141 .container-1 {
+  border-radius: 20px;
+  background: #FEF9F9;
+  position: absolute;
+  left: 50%;
+  bottom: 138px;
+  translate: -50% 0;
+  display: flex;
+  padding: 5.4px 6.4px;
+  width: 103px;
+  height: 19px;
+  box-sizing: border-box;
+}
+.iphone-13141 .placeholder-label {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 7px;
+  letter-spacing: -0.4px;
+  line-height: 2.857;
+  color: var(--label-colors-lc-lsecondary, rgba(60, 60, 67, 0.6));
+}
+.iphone-13141 .container {
+  background: url('../assets/images/plant_ui_1.png') 50% / cover no-repeat;
+  position: absolute;
+  right: -22px;
+  bottom: 228px;
+  display: flex;
+  padding-right: 15.9px;
+  width: 433px;
+  height: 355px;
+  box-sizing: border-box;
+}
+.iphone-13141 .mentari-1 {
+  background: url('../assets/images/mentari_1.png') 50% / cover no-repeat;
+  position: absolute;
+  top: -227px;
+  right: -148px;
+  width: 393px;
+  height: 416px;
+}
+.iphone-13141 .rectangle-2 {
+  background: #FFFFFF;
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  width: 430px;
+  height: 81px;
+}
+.iphone-13141 .vector {
+  width: 22px;
+  height: 22px;
+}
+.iphone-13141 .icround-refresh {
+  display: flex;
+  width: 33px;
+  height: 33px;
+  box-sizing: border-box;
+}
+.iphone-13141 .container-2 {
+  background: #00BE16;
+  position: absolute;
+  top: -19px;
+  right: -20px;
+  display: flex;
+  padding: 40.5px 0 18.5px 315px;
+  width: 430px;
+  height: 81px;
+  box-sizing: border-box;
+}
+.iphone-13141 .kalender-1 {
+  background: url('../assets/images/kalender_1.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 181px;
+  right: -11px;
+  width: 118px;
+  height: 160px;
+}
+.iphone-13141 .siram-1 {
+  background: url('../assets/images/siram_1.png') 50% / cover no-repeat;
+  position: absolute;
+  right: -22px;
+  bottom: 62px;
+  width: 158px;
+  height: 166px;
+}
+.iphone-13141 .magnifyingglass-1 {
+  position: absolute;
+  right: 8.6px;
+  bottom: -11px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.778;
+  color: var(--label-colors-lc-lsecondary, rgba(60, 60, 67, 0.6));
+}
+.iphone-13141 .magnifyingglass {
+  position: relative;
+  margin: 4px 0;
+  height: 28px;
+  flex-grow: 1;
+  flex-basis: 28px;
+}
+.iphone-13141 .placeholder-label-1 {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: -0.4px;
+  line-height: 4.727;
+  color: var(--label-colors-lc-lsecondary, rgba(60, 60, 67, 0.6));
+}
+.iphone-13141 .content {
+  border-radius: 10px;
+  background: var(--system-materials-sm-lthick, rgba(250, 250, 250, 0.93));
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15.9px 0 8px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.iphone-13141 .search-bar {
+  position: absolute;
+  left: 50%;
+  top: 201px;
+  translate: -50% 0;
+  width: 157px;
+  height: 8px;
+}
+.iphone-13141 .logo-igrow-21 {
+  background: url('../assets/images/logo_igrow_21.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  translate: -50% 0;
+  width: 173px;
+  height: 153px;
+}
+.iphone-13141 {
+  background: #FFFFFF;
+  display: flex;
+  padding-bottom: 17px;
+  box-sizing: border-box;
+}

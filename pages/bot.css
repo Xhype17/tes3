@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: url('../assets/images/bck_apk_1.png') 50% / cover no-repeat;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 190, 22, 1);
+  height: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(255,255, 255)
+}
+
+.nav p {
+  font-weight: 600;
+  font-size: 5vw;
+  color: rgb(255,255, 255);
+}
+
+.chat {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.chat .isi{
+  background-color: rgb(255,255, 255);
+  border-radius: 0px 10px 0px 10px;
+  padding: 4px;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.iphone-13143 .bck-apk-1 {
+  background: url('../assets/images/bck_apk_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: -56px;
+  translate: -50% 0;
+  width: 390px;
+  height: 982px;
+}
+.iphone-13143 .group {
+  width: 22.5px;
+  height: 20px;
+}
+.iphone-13143 .icon-parkreturn {
+  margin: 11px 0;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.iphone-13143 .grow-bot {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.iphone-13143 .vector-2 {
+  width: 22px;
+  height: 22px;
+}
+.iphone-13143 .icround-refresh {
+  margin: 10.5px 0 9.5px 0;
+  display: flex;
+  width: 33px;
+  height: 33px;
+  box-sizing: border-box;
+}
+.iphone-13143 .container-2 {
+  background: #00BE16;
+  position: relative;
+  margin: 0 0 39px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 27px 36.5px 12px 0;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.iphone-13143 .grow-bot-1 {
+  margin: 0 174.4px 678px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.iphone-13143 .rectangle-3 {
+  background: #FFFFFF;
+  margin-right: 10px;
+  width: 430px;
+  height: 81px;
+}
+.iphone-13143 .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.iphone-13143 .ch-tbot-1 {
+  background: url('../assets/images/ch_tbot_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 65px;
+  width: 74px;
+  height: 96px;
+}
+.iphone-13143 .hai-growfans-apakah-ada-yang-bisa-saya-bantu-untuk-merawat-tanaman-kesayangan-anda {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+}
+.iphone-13143 .container {
+  background: url('../assets/images/cht_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 53px;
+  translate: -50% 0;
+  display: flex;
+  padding: 0 28.8px;
+  width: 313px;
+  height: 257px;
+  box-sizing: border-box;
+}
+.iphone-13143 {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+}
